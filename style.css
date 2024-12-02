@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #131315;
+    color: rgb(255, 255, 255);
+    font-family:'Poppins', sans-serif;
+}
+.logo {
+    font-size:x-large;
+    padding: 0 20px;
+    margin-top: 5px;
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.line {
+    font-size:large;
+    color: #98988f;
+    align-self: flex-end;
+    margin-right: 30px;
+}
+.container{
+    display: flex;
+    height: 94vh;
+}
+.codebox{
+    flex-basis:50%;
+    padding: 10px;
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.code {
+    flex-basis: 33%;
+    background-color: hsl(30, 3%, 12%);
+    border: 0;
+    border-radius: 5px;
+}
+.output{
+    flex-basis:50%;
+    background-color: white;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 6px;
+}
+.code label {
+    display: block;
+    padding: 10px;
+    color: #ff811a;
+}   
+.code textarea {
+    width: calc(100% - 20px);
+    height: calc(80% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 0 0  5px 5px;
+    background-color: #2e2d2b;
+    color: white;
+    outline: none;
+    font-family: monospace;
+}
+.output label {
+    display: block;
+    padding: 10px;
+    background-color: #2e2d2b;
+    color: #baeb18;
+    border-radius: 5px 5px 0 0;
+}
+.output iframe {
+    width: 100%;
+    height: calc(100% - 40px);
+    outline: none; 
+    border: 0;
+    border-radius: 0 0  5px 5px;
+}
